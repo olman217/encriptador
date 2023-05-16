@@ -38,6 +38,7 @@ main {
 .mensaje {
     background: white;
     background-image: url("/imgenes/Muñeco.png");
+    background-position: center;
     /*background-repeat sirve para que no se repita la imagen*/
     background-repeat: no-repeat;
     border: none;
@@ -55,13 +56,6 @@ main {
 .botones {
     display: flex;
     margin-top: 18px;
-
-}
-
-.btn-copiar {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 20%;
 }
 
 .btn-encriptar {
@@ -96,6 +90,7 @@ main {
     margin-left: 30px;
     height: 67px;
     width: 336px;
+    transform: translate(-115%, 850%);
 }
 
 .informacion {
