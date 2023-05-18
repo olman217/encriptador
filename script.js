@@ -46,10 +46,10 @@ function desencriptar (strigDesencriptar) {
     return strigDesencriptar
 }
 
-function botoncopiar () {
-    var textoCopiar = document.getElementById(mensaje).value;
-    navigator.clipboard.writeText(mensaje)
-   
+function btncopiar () {
+    const texto = document.getElementsByClassName("mensaje")
+    mensaje.select();
+    navigator.clipboard.writeText("texto")
 }
 
 
