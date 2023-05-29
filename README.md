@@ -1,3 +1,3 @@
 # encriptador
 
-Esta en construcción
+finalizado
